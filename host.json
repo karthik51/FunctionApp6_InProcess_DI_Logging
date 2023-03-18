@@ -1,0 +1,16 @@
+{
+    "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    },
+    "logLevel": {
+      "FunctionApp1.Function1": "Information",
+      "FunctionApp1.Test": "Information"
+
+    }
+  }
+}
